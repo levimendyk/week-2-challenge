@@ -1,3 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    background-color: black;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    width:100%;
+    background-Color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-weight: bolder;
+    background-color: blue;
+    color:aliceblue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    width: fit-content;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: 5px solid black;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+}
+
+li {
+    display: inline;
+    border: 10 px solid white;
+    color: white;
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+/*Parent Container first box*/
+.first-container {
+    width: 600px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+}
+.first-container img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-me {
     background-color: aqua;
+    color: black;
+    text-align: left;
+}
+
+/*Parent Container second box*/
+.second-container {
+    width: 600px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.work {
+    background-color: aqua;
+    color: black;
+    text-align: left;
+}
+
+/*Parent Container third box*/
+.third-container {
+    width: 600px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact {
+    background-color: aqua;
+    color: black;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen {
+    
 }
