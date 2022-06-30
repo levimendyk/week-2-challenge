@@ -27,5 +27,7 @@ GIVEN I need to sample a potential employee's previous work
 <li>THEN I am presented with a responsive layout that adapts to my viewport</li>
 </ul>
 
+[Deployed Site](https://levimendyk.github.io/week-2-challenge/)
+
 Contribution guidelines for this project
-<img src="./assets/images/week-2-challenge-webpage-screenshot.png" alt="webpage screenshot">
+<img src="./assets/images/week-2-challenge-webpage-screenshot.png" alt="webpage screenshot" />
