@@ -13,15 +13,19 @@ header {
     width:100%;
     background-Color: blue;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 20px 0 0 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     font-weight: bolder;
     background-color: blue;
     color:aliceblue;
-    display: flex;
-    justify-content: flex-start;
 }
 
 nav {
@@ -50,61 +54,28 @@ li a:hover {
     background-color: grey;
 }
 
-/*Parent Container first box*/
-.first-container {
-    width: 600px;
+/*Parent Container all boxes*/
+.container {
+    background-color: aqua;
+    color: black;
+    width: 1000px;
     height: 300px;
     border: 1px solid white;
     margin: 10px;
     padding: 10px 10px;
-    text-align: center;
     display: flex;
 }
-.first-container img{
-    display: flex;
-    justify-content: flex-start;
+
+.second {
+    margin: 0 0 0 auto;
 }
 
-.about-me {
-    background-color: aqua;
-    color: black;
-    text-align: left;
+.first img{
+    width: 1000px;
 }
 
-/*Parent Container second box*/
-.second-container {
-    width: 600px;
-    height: 300px;
-    border: 1px solid white;
+.content {
     margin: 10px;
-    padding: 10px 10px;
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.work {
-    background-color: aqua;
-    color: black;
-    text-align: left;
-}
-
-/*Parent Container third box*/
-.third-container {
-    width: 600px;
-    height: 300px;
-    border: 1px solid white;
-    margin: 10px;
-    padding: 10px 10px;
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.contact {
-    background-color: aqua;
-    color: black;
-    text-align: left;
 }
 
 footer {
