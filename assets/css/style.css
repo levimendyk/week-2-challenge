@@ -11,7 +11,8 @@ body {
 
 header {
     width:100%;
-    background-Color: blue;
+    background-color:rgb(61, 14, 14);
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 20px 0 0 20px;
@@ -22,15 +23,10 @@ main {
     flex-direction: column;
 }
 
-h1 {
-    font-weight: bolder;
-    background-color: blue;
-    color:aliceblue;
-}
 
 nav {
     width: fit-content;
-    background-color: green;
+    background-color: gray;
     color: white;
     font-size: 20px;
     border: 5px solid black;
@@ -56,7 +52,7 @@ li a:hover {
 
 /*Parent Container all boxes*/
 .container {
-    background-color: aqua;
+    background-color: white;
     color: black;
     width: 1000px;
     height: 300px;
@@ -70,8 +66,12 @@ li a:hover {
     margin: 0 0 0 auto;
 }
 
-.first img{
+.first img {
     width: 1000px;
+}
+
+.second img {
+    width: 250px;
 }
 
 .content {
