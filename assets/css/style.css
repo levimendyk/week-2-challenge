@@ -1,14 +1,17 @@
+/*Universal Code Setting*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*Body of webpage to have a dark theme*/
 body {
     background-color: black;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/*Header continues the dark theme but eligible*/
 header {
     width:100%;
     background-color:rgb(61, 14, 14);
@@ -23,11 +26,12 @@ main {
     flex-direction: column;
 }
 
-
+/*Navigation has black border to help pop gray (see li a:hover for color) background making it stick out from the rest of the header*/
 nav {
     width: fit-content;
     background-color: gray;
     color: white;
+    margin: 0 10px 0 0;
     font-size: 20px;
     border: 5px solid black;
     padding: 10px 10px 10px 10px;
@@ -36,8 +40,6 @@ nav {
 
 li {
     display: inline;
-    border: 10 px solid white;
-    color: white;
     float: left;
 }
 
@@ -46,6 +48,7 @@ nav a {
     padding: 8px;
 }
 
+/*Gray background*/
 li a:hover {
     background-color: grey;
 }
@@ -57,13 +60,13 @@ li a:hover {
     width: 1000px;
     height: 300px;
     border: 1px solid white;
-    margin: 10px;
+    margin: 50px 20px 50px 20px;
     padding: 10px 10px;
     display: flex;
 }
 
 .second {
-    margin: 0 0 0 auto;
+    margin: 0 0 20px auto;
 }
 
 .first img {
@@ -74,14 +77,64 @@ li a:hover {
     width: 250px;
 }
 
+/*Text within each container*/
 .content {
     margin: 10px;
 }
 
+#contact {
+    font-weight: bold;
+}
+
+/*Larger project picture*/
+#picture-project {
+    width: 600px;
+    height: 800px;
+    border: 10px solid rgb(61, 14, 14);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*Smaller project picture*/
+.small-project {
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgb(61, 14, 14);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*Captions next to the images*/
+figcaption {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+/*added a bit of padding from the bottom and centered*/
 footer {
     text-align: center;
+    color: white;
+    padding: 0 0 20px 0;
 }
 
 @media screen {
     
 }
+
+@supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      article {
+        display: flex;
+      }
+    }
+  }

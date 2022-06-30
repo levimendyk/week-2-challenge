@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Levi Mendyk</title>
 </head>
@@ -14,16 +15,16 @@
         <nav>
             <ul>
                 <li><a href="home.asp">Home</a></li>
-                <li><a href="about-me.asp">About Me</a></li>
-                <li><a href="work.asp">Work</a></li>
-                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="resume.asp">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="container first">
+        <section class="container first" id="about">
             <img src="./assets/images/img_1814 (1).jpg" alt="picture of Levi Mendyk" />
             <div class="content">
             <h2>About Me</h2>
@@ -31,21 +32,44 @@
             </div>
         </section>
 
-        <section class="container second">
+        <section class="container second" id="work">
             <div class="content">
                 <h2>Work</h2>
                     <p>Currently I have studied HTML and Advanced CSS. My first week's challenge we had to clean up the code using semantic HTML and combined CSS code so it was easier to read.
+                        <br>
+                        <br>
+                        <br>
+                    On the right is a small snippet of that project's webpage. (Below is a larger picture)
+                    <br>
+                    <br>
+                    My next program to master is JavaScript.
+                    <br>
+                    <br>
+                    After JavaScript I will dive into other programs that are popular in today's workforce.
                     </p>
             </div>
             <img src="./assets/images/first-project-resized.png" alt="picture of Levi's first project" />
         </section>
 
-        <section class="container">
-            <img src="./assets/images/contact-me-logo.png" alt="picture of a contact me logo" />
+        <figure>
+            <a href="https://github.com/levimendyk/week-1-portfolio"><img id="picture-project" src="./assets/images/first-project.png" alt="bigger picture of Levi's first project"></a>
+            <figcaption>Project 1 Webpage Screenshot</figcaption>
+        </figure>
+            
+        <figure class="project-container">
+            <a href="https://github.com/levimendyk/week-1-portfolio"><img class="small-project" src="./assets/images/first-project.png" alt="bigger picture of Levi's first project"></a>
+            <figcaption>Project 2 Webpage Screenshot</figcaption>
+    
+            <a href="https://github.com/levimendyk/week-1-portfolio"><img class="small-project" src="./assets/images/first-project.png" alt="bigger picture of Levi's first project"></a>
+            <figcaption>Project 3 Webpage Screenshot</figcaption>
+        </figure>
+
+        <section class="container" id="contact">
+           <img src="./assets/images/contact-me-logo.png" alt="picture of a contact me logo"></a>
             <div class="content">
             <h2>Contact</h2>
-            <p>Email: levi3743@gmail.com <br>
-            Phone Number: 308-440-3743 <br>
+            <p>Email: <a href="mailto:levi3743@gmail.com">levi3743@gmail.com</a> <br>
+            Phone: 308-440-3743 <br>
             LinkedIn: <a href=//www.linkedin.com/in/levi-mendyk-2224a386/ >LinkedIn Profile</a>  
             </p>
             </div>
